@@ -1,0 +1,61 @@
+*{
+	overflow: visible;
+	border-radius: 25px 10%;
+}
+
+body{
+	padding: 0px;
+	background-image: url("backlogin.jpg");
+  	background-repeat: no-repeat;
+  	background-attachment:fixed; 
+  	background-size: 100% 100%;
+}
+button {
+ 	background-color: #4CAF50;
+ 	color: white;
+ 	padding: 20px 20px;
+ 	margin: 8px 0;
+ 	border: none;
+ 	cursor: pointer;
+ 	width: 15%;
+	display: inline-block;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+input[type=submit]
+{
+	background-color: #4CAF50;
+ 	color: white;
+ 	padding: 20px 20px;
+ 	border: none;
+ 	cursor: pointer;
+ 	width: 15%;
+	display: block;
+	margin: 50px 60px 22px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.imag {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.conteudo {
+  padding: 16px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.voltar{
+	float: right;
+}
